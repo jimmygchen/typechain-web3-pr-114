@@ -1,0 +1,21 @@
+{
+  "name": "typechain-web3-pr-114",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -fr build lib",
+    "generate-types": "typechain --target=web3-1.0.0 --outDir lib \"./build/**/*.json\"",
+    "build": "npm run clean && truffle compile && npm run generate-types"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^1.0.0-beta.54"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "truffle": "^5.0.15",
+    "typechain": "^0.3.14"
+  }
+}
