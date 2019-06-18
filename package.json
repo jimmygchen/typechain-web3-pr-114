@@ -16,6 +16,6 @@
   "devDependencies": {
     "mocha": "^6.1.4",
     "truffle": "^5.0.15",
-    "typechain": "^0.3.14"
+    "typechain": "^0.3.16"
   }
 }
