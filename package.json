@@ -14,7 +14,7 @@
     "web3": "^1.0.0-beta.54"
   },
   "devDependencies": {
-    "mocha": "^6.1.4",
+    "mocha": "^8.3.1",
     "truffle": "^5.0.15",
     "typechain": "^0.3.14"
   }
